@@ -8,7 +8,7 @@
               <User />
             </el-icon> 账号登录</span>
         </template>
-        <login-account ref="accountRef" />
+        <LoginAccount ref="accountRef"></LoginAccount>
       </el-tab-pane>
       <el-tab-pane>
         <template #label>
@@ -16,7 +16,7 @@
               <Cellphone />
             </el-icon> 手机登录</span>
         </template>
-        <login-phone />
+        <LoginPhone></LoginPhone>
       </el-tab-pane>
     </el-tabs>
     <div class="login-control">
@@ -29,13 +29,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import LoginAccount from './login-account.vue'
-// import LoginPhone from './login-phone.vue'
+import LoginAccount from './login-account.vue'
+import LoginPhone from './login-phone.vue'
 
 export default defineComponent({
   components: {
-    // LoginAccount,
-    // LoginPhone
+    LoginAccount,
+    LoginPhone
   },
   setup() {
     return {}
