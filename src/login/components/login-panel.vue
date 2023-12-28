@@ -29,13 +29,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import LoginAccount from './login-account.vue'
-import LoginPhone from './login-phone.vue'
+// import LoginAccount from './login-account.vue'
+// import LoginPhone from './login-phone.vue'
 
 export default defineComponent({
   components: {
-    LoginAccount,
-    LoginPhone
+    // LoginAccount,
+    // LoginPhone
   },
   setup() {
     return {}

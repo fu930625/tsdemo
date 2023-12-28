@@ -1,5 +1,6 @@
 <template>
   <div class="app">
+
     <router-view></router-view>
   </div>
 </template>
@@ -8,6 +9,7 @@
 import { Options, Vue } from 'vue-class-component'
 import HelloWorld from './components/HelloWorld.vue'
 import { defineComponent } from 'vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 export default defineComponent({
   name: 'App',
